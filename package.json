@@ -2,9 +2,10 @@
   "name": "alura-timer",
   "version": "1.0.0",
   "description": "Alura course timer",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/brunoromaniv/alura-timer/issues"
   },
-  "homepage": "https://github.com/brunoromaniv/alura-timer#readme"
+  "homepage": "https://github.com/brunoromaniv/alura-timer#readme",
+  "dependencies": {
+    "electron": "1.6.1",
+    "jsonfile-promised": "^0.0.1",
+    "moment": "2.24.0"
+  }
 }
