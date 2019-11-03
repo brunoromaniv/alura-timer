@@ -1,0 +1,19 @@
+{
+  "name": "alura-timer",
+  "version": "1.0.0",
+  "description": "Alura course timer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoromaniv/alura-timer.git"
+  },
+  "author": "BRDS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunoromaniv/alura-timer/issues"
+  },
+  "homepage": "https://github.com/brunoromaniv/alura-timer#readme"
+}
